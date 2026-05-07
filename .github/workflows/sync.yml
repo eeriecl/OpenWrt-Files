@@ -56,6 +56,7 @@ jobs:
           sync_repo "https://github.com/vernesong/OpenClash" "luci-app-openclash" "luci-app-openclash"
           sync_repo "https://github.com/siwind/luci-app-wolplus" "luci-app-wolplus"
           sync_repo "https://github.com/jerrykuku/luci-theme-argon" "luci-theme-argon"
+          cp -f "background/bg1.jpg" "luci-theme-argon/htdocs/luci-static/argon/background/bg1.jpg"
           sync_repo "https://github.com/sbwml/luci-app-mosdns" "luci-app-mosdns"
           sync_repo "https://github.com/immortalwrt/homeproxy" "luci-app-homeproxy"
 
