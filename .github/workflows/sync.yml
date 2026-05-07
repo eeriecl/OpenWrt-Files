@@ -57,6 +57,7 @@ jobs:
           sync_repo "https://github.com/siwind/luci-app-wolplus" "luci-app-wolplus"
           sync_repo "https://github.com/jerrykuku/luci-theme-argon" "luci-theme-argon"
           sync_repo "https://github.com/sbwml/luci-app-mosdns" "luci-app-mosdns"
+          sync_repo "https://github.com/immortalwrt/homeproxy" "luci-app-homeproxy"
 
       - name: Commit and Push
         run: |
