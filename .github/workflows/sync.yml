@@ -59,6 +59,8 @@ jobs:
           cp -f "background/bg1.jpg" "luci-theme-argon/htdocs/luci-static/argon/background/bg1.jpg"
           sync_repo "https://github.com/sbwml/luci-app-mosdns" "luci-app-mosdns"
           sync_repo "https://github.com/immortalwrt/homeproxy" "luci-app-homeproxy"
+          sync_repo "https://github.com/Openwrt-Passwall/openwrt-passwall-packages" "passwall_packages"
+          sync_repo "https://github.com/Openwrt-Passwall/openwrt-passwall" "passwall_luci"
 
       - name: Commit and Push
         run: |
